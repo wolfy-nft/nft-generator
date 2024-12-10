@@ -13,11 +13,9 @@ const __filename = fileURLToPath(
 );
 const __dirname = dirname(__filename);
 
-// brew install pkg-config cairo pango libpng jpeg giflib librsvg pixman
-
 const pinata = new PinataSDK({
   pinataJwt: process.env.PINATA_JWT,
-  pinataGateway: "blush-used-hamster-371.mypinata.cloud",
+  pinataGateway: process.env.PINATA_GATEWAY,
 });
 
 interface NftTrait {
