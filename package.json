@@ -1,0 +1,35 @@
+{
+  "name": "nft-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/generate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfy-nft/nft-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfy-nft/nft-generator/issues"
+  },
+  "homepage": "https://github.com/wolfy-nft/nft-generator#readme",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.0.0-rc3",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "nan": "^2.22.0",
+    "pinata-web3": "^0.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
